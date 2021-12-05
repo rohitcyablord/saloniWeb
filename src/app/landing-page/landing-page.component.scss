@@ -1,0 +1,84 @@
+._mainBody {
+  background: #FF7D7D;
+  /*height: 900px;*/
+  height: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.paraInter {
+  font-family: Inter;
+}
+
+.paraRedHatDisplay {
+  font-family: RedHatDisplay;
+}
+
+._textPanel {
+  padding: 0px;
+
+}
+
+._theBox {}
+
+._theHeaderTextPanel {
+  color: #242424;
+
+  ._header {
+    font-family: RedHatDisplay;
+    font-size: 2.4em;
+    font-weight: 900;
+  }
+
+  ._headerBody {
+    font-family: Inter;
+    font-size: 0.9em;
+  }
+
+  ._smallHeader {
+    font-family: RedHatDisplay;
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+
+  ._theCardsPanel {
+    ._smallCards {
+      background: #fff;
+      border-radius: 8px;
+      height: 80px;
+      width: 100px;
+      img{
+        width: 90px;
+        height: 70px;
+        padding: 10px;
+      }
+    }
+  }
+
+  ._social {
+    font-family: RedHatDisplay;
+    font-weight: 700;
+
+    ._socialIconHolder {
+      margin-right: 25px;
+      cursor: pointer;
+
+      ._socialIcons {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+}
+
+// </ theHeaderTextPanel
+
+._whiteBox {
+  width: 420px;
+  height: 656px;
+  background: #FFFFFF;
+  box-shadow: 12px 12px 32px rgba(0, 0, 0, 0.12);
+  border-radius: 32px;
+  background-image: url('../../assets/images/profile_landing.jpg');
+  background-size: cover;
+}

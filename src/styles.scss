@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+@font-face {
+  font-family: Inter;
+  src: url('./assets/Inter/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+@font-face {
+  font-family: RedHatDisplay;
+  src: url('./assets/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('./assets/Roboto/Roboto-Regular.ttf');
+}
